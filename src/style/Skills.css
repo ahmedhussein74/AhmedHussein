@@ -1,0 +1,28 @@
+#skills span {
+  transition: 0.5s all ease-in-out;
+  box-shadow: #d63384 0px 2px 4px 0px, #6f42c1 0px 2px 20px 0px,
+    #d63384 0px 2px 4px 0px, #6f42c1 0px 2px 20px 0px;
+}
+
+#skills span:hover {
+  color: #6f42c1;
+  font-weight: bold;
+  background: #fff;
+}
+
+.skills{
+  display: grid;
+  grid-template-columns: repeat(4,200px);
+}
+
+@media screen and (max-width: 500px) {
+  .skills {
+    grid-template-columns: 200px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .skills {
+    grid-template-columns: repeat(3, 200px);
+  }
+}

@@ -1,0 +1,55 @@
+.contact {
+  background: url("../images/bg-contact.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.profile {
+  width: 300px;
+  height: 300px;
+  background: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.icons a {
+  margin: 15px;
+  padding: 10px;
+  transition: 1s;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 2px transparent solid;
+}
+
+.icons a:hover {
+  border: 2px #fff solid;
+  background-color: transparent;
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    width: 180px;
+    height: 180px;
+  }
+
+  .icons a {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .icons a:hover {
+  border: 1px #fff solid;
+}
+
+
+  .icons img {
+    width: 25px;
+    height: 25px;
+  }
+}

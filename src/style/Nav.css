@@ -1,0 +1,33 @@
+nav {
+  width: 300px;
+  height: 60px;
+  left: calc(50% - 150px);
+  background-color: #e2e8f0;
+  transition: 1s all ease-in-out;
+  box-shadow: #d63384 0px 2px 4px 0px, #6f42c1 0px 2px 20px 0px;
+}
+nav a {
+  width: 45px;
+  height: 45px;
+  place-items: center;
+  font-size: 22px;
+  color: #06223f;
+  transition: 0.5s all ease-in-out;
+}
+nav a:hover {
+  color: #fff;
+  background-color: #06223f;
+}
+
+@media screen and (max-width:600px) {
+  nav {
+    width: 250px;
+    height: 40px;
+    left: calc(50% - 125px);
+  }
+  nav a {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+  }
+}

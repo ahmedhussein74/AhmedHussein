@@ -1,0 +1,66 @@
+.mycircle {
+  background: url("../images/profile.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: #6f42c1 0px 54px 55px, #6f42c1 0px -12px 30px, #6f42c1 0px 4px 6px,
+    #6f42c1 0px 12px 13px, #6f42c1 0px -3px 5px;
+}
+
+.mycircle::after {
+  content: "";
+  width: 470px;
+  height: 470px;
+  border-radius: 50%;
+  position: absolute;
+  border: 10px #dc3545 solid;
+  border-bottom: 10px transparent solid;
+  animation: rotate 3s linear infinite forwards;
+}
+.mycircle::before {
+  content: "";
+  width: 430px;
+  height: 430px;
+  border-radius: 50%;
+  position: absolute;
+  border: 10px #0d6efd solid;
+  border-top: 10px transparent solid;
+  animation: rotate 3s linear infinite forwards;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mycircle::before {
+    width: 240px;
+    height: 240px;
+    border: 8px #0d6efd solid;
+    border-top: 8px transparent solid;
+  }
+
+  .mycircle::after {
+    width: 270px;
+    height: 270px;
+    border: 8px #dc3545 solid;
+    border-bottom: 8px transparent solid;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  .mycircle::before {
+    width: 240px;
+    height: 240px;
+    border: 8px #0d6efd solid;
+    border-top: 8px transparent solid;
+  }
+
+  .mycircle::after {
+    width: 270px;
+    height: 270px;
+    border: 8px #dc3545 solid;
+    border-bottom: 8px transparent solid;
+  }
+}
