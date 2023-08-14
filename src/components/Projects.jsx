@@ -19,6 +19,7 @@ import img3 from "../images/Food.png";
 import img4 from "../images/QR-Code.png";
 import img5 from "../images/TextToVoice.png";
 import img6 from "../images/To-Do-App.png";
+import img7 from "../images/clinic.png";
 
 const Projects = () => {
   const projects = [
@@ -45,6 +46,10 @@ const Projects = () => {
     {
       url: "https://todo-react-app-blush.vercel.app/",
       img: img6,
+    },
+    {
+      url: "https://clinic-phi.vercel.app/",
+      img: img7,
     },
   ];
   return (
