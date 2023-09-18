@@ -13,6 +13,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 
+import img0 from "../images/BugSwagger.png";
 import img1 from "../images/Architects.png";
 import img2 from "../images/Country-App.png";
 import img3 from "../images/Food.png";
@@ -23,6 +24,10 @@ import img7 from "../images/clinic.png";
 
 const Projects = () => {
   const projects = [
+    {
+      url: "https://bug-swagger.vercel.app/",
+      img: img0,
+    },
     {
       url: "https://architects-seven.vercel.app/",
       img: img1,
