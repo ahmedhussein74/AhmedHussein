@@ -13,7 +13,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 
-import img0 from "../images/BugSwagger.png";
+import img0 from "../images/green.png";
 import img1 from "../images/Architects.png";
 import img2 from "../images/Country-App.png";
 import img3 from "../images/Food.png";
