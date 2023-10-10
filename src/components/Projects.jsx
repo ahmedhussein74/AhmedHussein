@@ -25,7 +25,7 @@ import img7 from "../images/clinic.png";
 const Projects = () => {
   const projects = [
     {
-      url: "https://bug-swagger.vercel.app/",
+      url: "https://green-market-six.vercel.app/",
       img: img0,
     },
     {
