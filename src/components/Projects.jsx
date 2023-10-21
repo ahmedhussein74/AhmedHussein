@@ -21,6 +21,8 @@ import img4 from "../images/QR-Code.png";
 import img5 from "../images/TextToVoice.png";
 import img6 from "../images/To-Do-App.png";
 import img7 from "../images/clinic.png";
+import img8 from "../images/travel.png";
+
 
 const Projects = () => {
   const projects = [
@@ -54,6 +56,10 @@ const Projects = () => {
     },
     {
       url: "https://clinic-phi.vercel.app/",
+      img: img8,
+    },
+    {
+      url: "https://travel-orcin-five.vercel.app/",
       img: img7,
     },
   ];
