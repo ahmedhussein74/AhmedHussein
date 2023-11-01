@@ -14,6 +14,7 @@ import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 
 import img from "../images/largerthan.png";
+import img01 from "../images/interno.png";
 import img0 from "../images/green.png";
 import img1 from "../images/Architects.png";
 import img2 from "../images/Country-App.png";
@@ -30,6 +31,10 @@ const Projects = () => {
     {
       url: "https://largerthan.vercel.app/",
       img: img,
+    },
+    {
+      url: "https://interno-bice.vercel.app/",
+      img: img01,
     },
     {
       url: "https://green-market-six.vercel.app/",
